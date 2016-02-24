@@ -1,4 +1,4 @@
-FROM openshift/python-34-centos7
+FROM centos/python-34-centos7
 
 USER root
 
