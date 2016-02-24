@@ -7,8 +7,8 @@ RUN INSTALL_PKGS="xz libffi libjpeg-turbo libjpeg-turbo-devel" && \
     rpm -V $INSTALL_PKGS && \
     yum clean all -y
 
-RUN wget https://nodejs.org/dist/v4.3.1/node-v4.3.1-linux-x64.tar.xz && \
-    unxz node-v4.3.1-linux-x64.tar.xz && \
+RUN wget https://nodejs.org/dist/v5.7.0/node-v5.7.0-linux-x64.tar.xz && \
+    unxz node-v* && \
     tar --strip-components 1 -xvf node-v* -C /usr/local && \
     rm node-v*
 
