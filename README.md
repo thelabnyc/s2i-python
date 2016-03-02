@@ -12,4 +12,8 @@ Adds python packages (Mainly to save time, could be overwritten per project)
 - psycopg2 
 - hiredis
 
+Tools:
+
+- postgres (client tools like psql and pg_dump)
+
 Adds node (We use it for compiling static assets)
